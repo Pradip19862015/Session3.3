@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image:url(../image/background.jpg);
+	background-size:cover; 
+	margin:0px;
+	padding:0px;
+	outline:none;
+}
+.MainWraper{ 
+	width:400px;
+	margin:0px auto;
+	color:#ffffff; 
+  	/*background:rgba(255,255,255,0.5);
+	border:1px solid #ffffff;*/
+	padding:5px 20px 20px 20px; 
+	text-align:left; 
+	font-size:18px; 
+}
+.MainWraper p{ margin:15px 0px 10px 0px; padding:0px;}
+.commonInput, address{ 
+	width:380px;
+	margin:0px;
+	margin: 5px 0px;
+	background:#7f7f7f;
+  	background:rgba(255,255,255,0.3);
+	padding:10px;  
+	border:1px solid #cdcdcd; 
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-size:16px;
+	color:#323232;
+	position:relative; 
+} 
+.address{ padding-bottom:45px;}
+.commonInput input[type=text], input[type=number], textarea{ 
+	width:220px; 
+	position:absolute;
+	right:60px;
+	padding:5px; 
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border:1px solid #eaeaea;
+	top: 6px;
+} 
+/* Card Type options Style */
+.cardType{ padding-bottom:30px;}
+.allCards ol{ margin:0px; padding-top:8px; padding-left: 22px;}
+.allCards ol li { 
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	line-height: 30px;
+	list-style: none; 
+	margin-bottom: 2px;
+	border: none;
+	float: left; 
+}  	 
+.allCards label {
+	background:none no-repeat left 50%;
+	line-height: 20px;
+	padding: 0 0 0 30px;
+	width: auto;
+	float: left;
+	font-size: 16px;
+	width: 48px;
+}					
+.allCards label[for="visa"] {
+	background-image: url("../image/visa.gif");
+}
+.allCards label[for="amex"] {
+	background-image: url("../image/amex.gif");
+}
+.allCards label[for="mastercard"] {
+	background-image: url("../image/mastercard.gif");
+}
+.allCards label:hover {
+	cursor: pointer;
+	}
+.allCards input[type=radio] {
+	float: left;
+	margin-right: 5px;
+}
+/* Card Type options Style */
+form button {
+  background: #011631;
+  border: none;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  display: block;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin: auto;
+  margin-top:20px;
+  padding: 7px 30px;
+  text-shadow: 0 1px 1px #000000;
+  text-transform: uppercase; 
+  cursor: pointer;
+  opacity: 1;
+	-webkit-transition: opacity 1s ease;
+	-moz-transition: opacity 1s ease;
+	-o-transition: opacity 1s ease;
+	transition: opacity 1s ease;
+  }
+ form button:hover {
+	background: #011125; 
+	cursor: pointer;
+	opacity: 0.7;
+	-webkit-transition: opacity .5s ease;
+	-moz-transition: opacity .5s ease;
+	-o-transition: opacity .5s ease;
+	transition: opacity .5s ease;
+}		

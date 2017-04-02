@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSS Session-3</title> 
+<link href="assets/css/style.css" rel="stylesheet" type="text/css"> 
+</head>
+<!-- Below Demo for Inline Style Start -->
+<body>
+<div class="MainWraper">
+<form id="text" action="/action_page.php" method="post">
+<!-- First Section Start-->
+    <p>Step 1: Your details</p> 
+    <div class="commonInput name">
+    <label for="name">Name</label>
+    <input type="text" name="name" placeholder="First and last name" required /> 
+     </div>
+     
+     <div class="commonInput email">
+    <label for="email">Email</label>
+    <input type="text" name="email" placeholder="example@domain.com" required /> 
+     </div>
+     
+     <div class="commonInput tel">
+    <label for="tel">Phone</label>
+    <input type="text" name="tel" placeholder="e.g. +4450008988" required /> 
+     </div>
+ <!-- First Section End-->
+ 
+ <!-- Second Section Start-->
+    <p>Step 2: Delivery address</p> 
+    <div class="commonInput address">
+    <label for="address">Address</label>
+    <textarea name="address" placeholder="Address" required> </textarea>
+     </div>
+     
+     <div class="commonInput postCode">
+    <label for="PostCode">Post code</label>
+    <input type="text" name="PostCode" placeholder="e.g. 10012" required /> 
+     </div>
+     
+     <div class="commonInput country">
+    <label for="country">Country</label>
+    <input type="text" name="country" placeholder="Country" required /> 
+     </div>
+ <!-- Second Section End-->
+ 
+ <!-- Third Section Start-->
+    <p>Step 3: Card details</p> 
+    <div class="commonInput cardType">
+    <label for="cardno1">Card type</label>
+    <div class="allCards">
+        <ol>        
+        <li>
+            <input id="visa" name="cardtype" type="radio">
+            <label for="visa">VISA</label>
+        </li>        
+        <li>
+            <input id="amex" name="cardtype" type="radio">
+            <label for="amex">AmEx</label>
+        </li>        
+        <li>
+            <input id="mastercard" name="cardtype" type="radio">
+            <label for="mastercard">Mastercard</label>
+        </li>        
+    </ol>
+    </div>
+    </div>
+     
+    <div class="commonInput cardno">
+    <label for="cardno">Card Number</label>
+    <input type="number" name="cardno" required /> 
+     </div>
+     
+     <div class="commonInput securityCode">
+    <label for="securityCode">Security code</label>
+    <input type="number" name="securityCode" required /> 
+     </div>
+     
+     <div class="commonInput nameOnCard">
+    <label for="nameOnCard">Name on card</label>
+    <input type="text" name="nameOnCard" placeholder="Exact name as on the card" required /> 
+     </div>
+ <!-- Third Section End-->
+ 	<button type="submit">Buy it!</button>
+ </form>
+ </div>
+</body>
+</html>
